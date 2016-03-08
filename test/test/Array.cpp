@@ -14,12 +14,14 @@ Array::~Array()
 {
 }
 
-void Array::pringInfo() {
-
+Array* Array::pringInfo() {
+	cout << "len=" << len << endl;
+	return this;
 }
 
-void Array::setLen(int len) {
+Array* Array::setLen(int len) {
 	this->len = len;
+	return this;
 }
 int Array::getLen() {
 	return this->len;

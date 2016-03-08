@@ -4,9 +4,9 @@ class Array
 public:
 	Array(int len);
 	~Array();
-	void pringInfo();
+	Array* pringInfo();//定义为引用，才能让this指向原来的对象，否则是临时对象
 
-	void setLen(int len);
+	Array* setLen(int len);
 	int getLen();
 private:
 	int len;

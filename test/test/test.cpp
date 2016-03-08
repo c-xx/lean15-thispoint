@@ -9,9 +9,12 @@ using namespace std;
 int main(void) {
 
 	Array arr1(10);
-	cout << arr1.getLen() << endl;
-
-
+	
+	//return ÒýÓÃ
+	//arr1.pringInfo().setLen(5).pringInfo().setLen(1).pringInfo();
+	
+	//return Ö¸Õë
+	arr1.pringInfo()->setLen(5)->pringInfo()->setLen(1)->pringInfo();
 
 	system("pause");
 	return 0;
