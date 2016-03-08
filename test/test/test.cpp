@@ -16,6 +16,8 @@ int main(void) {
 	//return Ö¸Õë
 	arr1.pringInfo()->setLen(5)->pringInfo()->setLen(1)->pringInfo();
 
+	cout << &arr1 << endl;
+
 	system("pause");
 	return 0;
 }

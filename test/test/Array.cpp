@@ -16,6 +16,7 @@ Array::~Array()
 
 Array* Array::pringInfo() {
 	cout << "len=" << len << endl;
+	cout << this << endl;
 	return this;
 }
 
